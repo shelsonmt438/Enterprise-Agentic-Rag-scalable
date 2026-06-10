@@ -1,4 +1,4 @@
-# 🤖 Enterprise Agentic RAG (Scalable Pipeline)
+# Enterprise Agentic RAG (Scalable Pipeline)
 
 
 
@@ -6,7 +6,7 @@ A production-grade, cyclic RAG system built with **LangGraph**, **Google Cloud P
 
 
 
-## 🚀 Key Features
+## Key Features
 
 *   **Agentic Intelligence**: Uses LangGraph for complex, cyclic reasoning and multi-step planning.
 
