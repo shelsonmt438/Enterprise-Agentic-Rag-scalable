@@ -1,3 +1,23 @@
+# 🤖 Enterprise Agentic RAG (Scalable Pipeline)
+
+
+
+A production-grade, cyclic RAG system built with **LangGraph**, **Google Cloud Platform (GCP)**, and **Groq**. This system distinguishes between technical "True Data" and random "Noisy Data" using semantic re-ranking and history-aware planning.
+
+
+
+## 🚀 Key Features
+
+*   **Agentic Intelligence**: Uses LangGraph for complex, cyclic reasoning and multi-step planning.
+
+*   **Enterprise Search**: Integration with **Qdrant Cloud** for high-performance vector search and **FlashRank** for ultra-fast local semantic reranking.
+
+*   **Observability**: Full tracing with **Pydantic Logfire** and **LangSmith** for real-time monitoring of agent decisions.
+
+*   **Scalable Infrastructure**: Deployed on **Google Cloud Run** with **Cloud Build** CI/CD and **VPC Connectors** for private networking.
+
+*   **Document Intelligence**: Uses **Google Document AI** for high-fidelity PDF parsing and data extraction.
+
 ---
 
 ## 🔄 Agent Intelligence Flow
