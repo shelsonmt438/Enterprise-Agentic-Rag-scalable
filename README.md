@@ -67,19 +67,6 @@ graph TD
 
 ---
 
-## 📚 Documentation Index
-All detailed guides are located in the [DOCS/](DOCS/) folder:
-
-1.  **[System Overview](DOCS/01_SYSTEM_OVERVIEW.md)** - High-level vision and system flow.
-2.  **[Ingestion Engine](DOCS/02_INGESTION_ENGINE.md)** - How documents are parsed and indexed.
-3.  **[Node Intelligence](DOCS/03_NODE_INTELLIGENCE.md)** - The "Brain" (Planner, Retriever, Responder).
-4.  **[Observability](DOCS/04_TRACING_AND_OBSERVABILITY.md)** - Logfire and LangSmith tracing.
-5.  **[GCP Prod Setup](DOCS/05_GCP_PROD_SETUP.md)** - Step-by-step infrastructure provisioning.
-6.  **[Deployment Strategy](DOCS/06_DEPLOYMENT_STRATEGY.md)** - Cloud Build and Cloud Run details.
-7.  **[Env Variables](DOCS/07_ENVIRONMENT_VARIABLES.md)** - Complete configuration dictionary.
-8.  **[GCP Roles & Services](DOCS/08_GCP_ROLES_AND_SERVICES.md)** - IAM and service breakdown.
-9.  **[Infra Architecture](DOCS/09_INFRA_ARCHITECTURE.md)** - The 3-tier cloud blueprint.
-10. **[Known Gotchas](DOCS/12_KNOWN_GOTCHAS.md)** - GCP quirks and architectural decisions.
 
 ---
 
