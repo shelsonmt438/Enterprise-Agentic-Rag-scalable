@@ -21,20 +21,6 @@ A production-grade, cyclic RAG system built with **LangGraph**, **Google Cloud P
 ---
 
 
-## 🔄 Agent Intelligence Flow
-
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#3182ce', 'edgeLabelBackground': '#1a202c', 'tertiaryColor': '#2d3748' }}}%%
-graph TD
-    User((User)) --> UI[Streamlit UI]
-    UI --> Planner{Planner Node}
-    Planner -->|Conversational| Responder[Responder Node]
-    Planner -->|Technical| Retriever[Retriever Node]
-    Retriever --> Reranker[FlashRank Local Reranker]
-    Reranker --> Responder
-    Responder --> UI
-    Responder -.-> Memory[(LangGraph MemorySaver)]
-
 ---
 
 ## 📂 Project Structure
