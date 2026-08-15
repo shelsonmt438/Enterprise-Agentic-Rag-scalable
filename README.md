@@ -23,11 +23,11 @@ A production-grade, cyclic RAG system built with **LangGraph**, **Google Cloud P
 ## 🔄 Agent Intelligence Flow
 graph TD
     %% Styling Definitions
-    classDef userNode fill:#4A90E2,stroke:#2C3E50,stroke-width:2px,color:#fff,font-weight:bold;
-    classDef uiNode fill:#50E3C2,stroke:#2C3E50,stroke-width:2px,color:#1A252F,font-weight:bold;
-    classDef routerNode fill:#F5A623,stroke:#D68910,stroke-width:2px,color:#1A252F,font-weight:bold;
-    classDef coreNode fill:#7ED321,stroke:#417505,stroke-width:2px,color:#1A252F,font-weight:bold;
-    classDef memoryNode fill:#9013FE,stroke:#512E5F,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef userNode fill:#2d3748,stroke:#4a5568,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef uiNode fill:#3182ce,stroke:#2b6cb0,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef routerNode fill:#d69e2e,stroke:#b7791f,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef coreNode fill:#38a169,stroke:#2f855a,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef memoryNode fill:#805ad5,stroke:#553c9a,stroke-width:2px,color:#fff,font-weight:bold;
 
     %% Graph Structure
     User((User)) --> UI[Streamlit UI]
@@ -45,8 +45,6 @@ graph TD
     class Planner routerNode;
     class Retriever,Reranker,Responder coreNode;
     class Memory memoryNode;
-
----
 
 ## 📂 Project Structure
 ```text
