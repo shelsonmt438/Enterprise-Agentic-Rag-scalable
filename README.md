@@ -20,6 +20,7 @@ A production-grade, cyclic RAG system built with **LangGraph**, **Google Cloud P
 
 ---
 
+
 ## 🔄 Agent Intelligence Flow
 
 ```mermaid
@@ -33,6 +34,8 @@ graph TD
     Reranker --> Responder
     Responder --> UI
     Responder -.-> Memory[(LangGraph MemorySaver)]
+
+---
 
 ## 📂 Project Structure
 ```text
