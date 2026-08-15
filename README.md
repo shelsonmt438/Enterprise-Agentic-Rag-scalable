@@ -21,8 +21,15 @@ A production-grade, cyclic RAG system built with **LangGraph**, **Google Cloud P
 ---
 
 ## 🔄 Agent Intelligence Flow
-```mermaid
 graph TD
+    %% Styling Definitions
+    classDef userNode fill:#4A90E2,stroke:#2C3E50,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef uiNode fill:#50E3C2,stroke:#2C3E50,stroke-width:2px,color:#1A252F,font-weight:bold;
+    classDef routerNode fill:#F5A623,stroke:#D68910,stroke-width:2px,color:#1A252F,font-weight:bold;
+    classDef coreNode fill:#7ED321,stroke:#417505,stroke-width:2px,color:#1A252F,font-weight:bold;
+    classDef memoryNode fill:#9013FE,stroke:#512E5F,stroke-width:2px,color:#fff,font-weight:bold;
+
+    %% Graph Structure
     User((User)) --> UI[Streamlit UI]
     UI --> Planner{Planner Node}
     Planner -->|Conversational| Responder[Responder Node]
@@ -31,7 +38,13 @@ graph TD
     Reranker --> Responder
     Responder --> UI
     Responder -.-> Memory[(LangGraph MemorySaver)]
-```
+
+    %% Apply Styles
+    class User userNode;
+    class UI uiNode;
+    class Planner routerNode;
+    class Retriever,Reranker,Responder coreNode;
+    class Memory memoryNode;
 
 ---
 
